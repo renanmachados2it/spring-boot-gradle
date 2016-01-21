@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 
 import br.com.springbootgradle.amqp.Sender;
 import br.com.springbootgradle.entity.Person;
+import br.com.springbootgradle.hateoas.resource.PersonResource;
 import br.com.springbootgradle.repository.PersonRepository;
-import br.com.springbootgradle.repository.rest.resource.PersonResource;
 
 @Service
 public class PersonService {

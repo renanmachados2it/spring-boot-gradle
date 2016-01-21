@@ -1,4 +1,4 @@
-package br.com.springbootgradle.repository.rest.assembler;
+package br.com.springbootgradle.heteoas.assembler;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -10,9 +10,9 @@ import br.com.springbootgradle.controller.PersonController;
 import br.com.springbootgradle.controller.PhoneController;
 import br.com.springbootgradle.entity.Person;
 import br.com.springbootgradle.entity.Phone;
-import br.com.springbootgradle.repository.rest.resource.DocumentResource;
-import br.com.springbootgradle.repository.rest.resource.PersonResource;
-import br.com.springbootgradle.repository.rest.resource.PhoneResource;
+import br.com.springbootgradle.hateoas.resource.DocumentResource;
+import br.com.springbootgradle.hateoas.resource.PersonResource;
+import br.com.springbootgradle.hateoas.resource.PhoneResource;
 
 public class PersonResourceAssembler extends ResourceAssemblerSupport<Person, PersonResource>{
 

@@ -1,4 +1,4 @@
-package br.com.springbootgradle.repository.rest.assembler;
+package br.com.springbootgradle.heteoas.assembler;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 
@@ -7,7 +7,7 @@ import org.springframework.hateoas.mvc.ResourceAssemblerSupport;
 
 import br.com.springbootgradle.controller.DocumentController;
 import br.com.springbootgradle.entity.Document;
-import br.com.springbootgradle.repository.rest.resource.DocumentResource;
+import br.com.springbootgradle.hateoas.resource.DocumentResource;
 
 public class DocumentResourceAssembler extends ResourceAssemblerSupport<Document, DocumentResource>{
 

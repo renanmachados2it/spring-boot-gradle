@@ -6,7 +6,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RestResource;
 
 import br.com.springbootgradle.entity.Phone;
-import br.com.springbootgradle.repository.rest.resource.PhoneResource;
+import br.com.springbootgradle.hateoas.resource.PhoneResource;
 
 @RestResource(path = PhoneResource.REL, rel = "phones")
 public interface PhoneRepository extends JpaRepository<Phone, Long>{

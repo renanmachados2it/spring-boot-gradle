@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.springbootgradle.entity.Document;
-import br.com.springbootgradle.repository.rest.assembler.DocumentResourceAssembler;
-import br.com.springbootgradle.repository.rest.resource.DocumentResource;
+import br.com.springbootgradle.hateoas.resource.DocumentResource;
+import br.com.springbootgradle.heteoas.assembler.DocumentResourceAssembler;
 import br.com.springbootgradle.service.DocumentService;
 
 @RestController

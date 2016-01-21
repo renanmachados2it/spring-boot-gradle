@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.springbootgradle.entity.Phone;
-import br.com.springbootgradle.repository.rest.assembler.PhoneResourceAssembler;
-import br.com.springbootgradle.repository.rest.resource.PhoneResource;
+import br.com.springbootgradle.hateoas.resource.PhoneResource;
+import br.com.springbootgradle.heteoas.assembler.PhoneResourceAssembler;
 import br.com.springbootgradle.service.PhoneService;
 
 @RestController

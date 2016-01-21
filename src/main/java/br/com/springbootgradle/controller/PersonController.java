@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.springbootgradle.entity.Person;
-import br.com.springbootgradle.repository.rest.assembler.PersonResourceAssembler;
-import br.com.springbootgradle.repository.rest.resource.PersonResource;
+import br.com.springbootgradle.hateoas.resource.PersonResource;
+import br.com.springbootgradle.heteoas.assembler.PersonResourceAssembler;
 import br.com.springbootgradle.service.PersonService;
 
 @RestController

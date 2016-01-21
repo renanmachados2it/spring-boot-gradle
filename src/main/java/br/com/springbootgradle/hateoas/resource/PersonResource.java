@@ -1,4 +1,4 @@
-package br.com.springbootgradle.repository.rest.resource;
+package br.com.springbootgradle.hateoas.resource;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RestResource;
 
 import br.com.springbootgradle.entity.Person;
-import br.com.springbootgradle.repository.rest.resource.PersonResource;
+import br.com.springbootgradle.hateoas.resource.PersonResource;
 
 @RestResource(path = PersonResource.REL, rel = "person")
 public interface PersonRepository extends JpaRepository<Person, Long>{
