@@ -10,7 +10,6 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
-apply plugin: 'war'
 apply plugin: "io.spring.dependency-management"
 
 dependencyManagement {
@@ -21,7 +20,7 @@ dependencyManagement {
 
 sourceCompatibility = 1.8
 
-war {
+jar {
     baseName = 'spring-boot-gradle'
     version =  '1.0'
 }

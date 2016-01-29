@@ -12,7 +12,13 @@ import br.com.springbootgradle.config.RabbitConfig;
 public class Receiver {
 
 	@RabbitHandler
-	public void process(@Payload String obj) {		
+	public void process(@Payload String obj) {	
+//		try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		System.out.println(new Date() + ": Message Received: "+obj);
 	}
 }
